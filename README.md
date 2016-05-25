@@ -10,9 +10,9 @@ como se utiliza el programa:
 
 
 # import numpy
-# from travel import *
+# from travelplan import *
 #  W=numpy.array([[0,3,6,2,3,3],[4,0,5,1,2,3],[3,5,0,4,2,7],[1,3,2,0,3,1],[1,4,2,9,0,4],[4,3,2,5,4,0]])
-#  travel(w)
+#  travelplan(w)
 # Chequeando la conformación de la matriz...
 # ...OK
 # Calculando trayecto con menor costo
@@ -26,12 +26,12 @@ como se utiliza el programa:
 # El costo total del viaje es:
 # 11
 # >>> W=numpy.array([[0,3,6,2,3,3],[4,0,5,1,2,3],[3,5,0,4,2,7],[1,3,2,0,3,1],[1,4,2,9,0,4],[4,3,2,5,4,1]])
-# >>> travel(w)
+# >>> travelplan(w)
 # Chequeando la conformación de la matriz...
 # ERROR: Uno de los elementos de la diagonal principal no es cero
 # No es posible completar el calculo
 # >>> W=numpy.array([[0,3,6,2,3,3],[4,0,5,1,2,3],[3,5,0,4,2,7],[1,3,2,0,3,1],[1,4,2,9,0,4],[4,3,2,5,4,0]])
-# >>> travel(w)
+# >>> travelplan(w)
 # Chequeando la conformación de la matriz...
 # ...OK
 # Calculando trayecto con menor costo
@@ -45,7 +45,7 @@ como se utiliza el programa:
 # El costo total del viaje es:
 # 11
 # >>> W=numpy.array([[0,3,3,4,3,3],[4,0,5,1,2,3],[3,5,0,4,6,7],[1,3,2,0,3,1],[1,4,2,9,0,1],[4,3,6,5,4,0]])
-# >>> travel(w)
+# >>> travelplan(w)
 # Chequeando la conformación de la matriz...
 # ...OK
 # Calculando trayecto con menor costo
@@ -59,7 +59,7 @@ como se utiliza el programa:
 # El costo total del viaje es:
 # 11
 # >>> W=numpy.array([[0,4,3,4,3,2],[4,0,5,7,2,3],[3,5,0,4,6,7],[1,3,2,0,3,5],[6,4,2,9,0,1],[4,3,6,5,4,0]])
-# >>> travel(w)
+# >>> travelplan(w)
 # Chequeando la conformación de la matriz...
 # ...OK
 # Calculando trayecto con menor costo
