@@ -7,9 +7,9 @@
 
 import numpy as np
 
-# Hay que mirar que la matriz esté bien conformada
+# Hay que mirar que la matriz este bien conformada
 def chequearMatriz(W):
-    print("Chequeando la conformación de la matriz...")
+    print("Chequeando la conformacion de la matriz...")
     M=np.matrix(W,dtype=np.int)
     n=M.shape
 
@@ -20,15 +20,15 @@ def chequearMatriz(W):
                 return False
 
 # La diagonal principal debe estar conformada por ceros, debido a que alli se encuentran, 
-# el costo de W_ii, W_jj...y así con todas las ciudades, y dado que ir de la ciudad i a i no hay costo, es cero
+# el costo de W_ii, W_jj...y asi con todas las ciudades, y dado que ir de la ciudad i a i no hay costo, es cero
         print("...OK")
         return True
     else:
-        print("ERROR: Dimensión incorrecta")
+        print("ERROR: Dimension incorrecta")
         return False
 
 
-# Funcion para revisar las filas, buscar el valor minimo  y retornar el valor con su posición
+# Funcion para revisar las filas, buscar el valor minimo  y retornar el valor con su posicion
 # Rrtorna [Valor, fila, columna]
 def valorMinimo(arr,fila):
     M=np.matrix(arr,dtype=np.int)
